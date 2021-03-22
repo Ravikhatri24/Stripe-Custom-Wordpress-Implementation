@@ -25,7 +25,7 @@
 
           var buyBtn = document.getElementById('submit');  
           
-          var stripe = Stripe('pk_live_51HoNb6IfNEPEq7JKp7VutCSOaWtqsFfi0T1QtqEqHhwLPsH3k6AYZaIqxykQHFtp5xVqY40jK8oU5FJBgyedz91M004EVf9eAi'); 
+          var stripe = Stripe('live publish key here'); 
 
           var handleResult = function (result) {
               if (result.error) {
